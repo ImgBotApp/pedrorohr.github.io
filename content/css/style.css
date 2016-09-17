@@ -1,0 +1,143 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.topnav {
+	font-size: 14px;
+}
+
+.about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url(../img/about.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.about-message {
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.about-message > h1 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 5em;
+}
+
+.about-filler {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+@media(max-width: 767px) {
+	.about-message {
+		padding-bottom: 15%;
+	}
+
+	.about-message > h1 {
+		font-size: 3em;
+	}
+
+	.about-filler {
+		width: 100%;
+	}
+
+	ul.about-social-links > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.about-social-links > li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.social-network {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.projects {
+	padding: 50px 0;
+	background-color: #f8f8f8;
+}
+
+.section-filler {
+	float: left;
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
+}
+
+.section-head {
+	margin-bottom: 30px;
+}
+
+.projects-description {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.contact {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(../img/contact.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.contact h2 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 3em;
+}
+
+.contact ul {
+	margin-bottom: 0;
+}
+
+.contact-social-links {
+	float: right;
+	margin-top: 0;
+}
+
+@media(max-width:1199px) {
+	ul.contact-social-links {
+		float: left;
+		margin-top: 15px;
+	}
+}
+
+@media(max-width:767px) {
+	.contact h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+		font-size: 3em;
+	}
+
+	ul.contact-social-links > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.contact-social-link > li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+footer {
+	padding: 50px 0;
+	background-color: #f8f8f8;
+}
+
+p.copyright {
+	margin: 15px 0 0;
+}
